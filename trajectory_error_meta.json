@@ -1,0 +1,44 @@
+{
+  "trajectories": {
+    "figure8": {
+      "period": 5.0,
+      "cost": 81.78178405761719,
+      "reward": -81.78178405761719
+    },
+    "circle": {
+      "period": 5.0,
+      "cost": 144.21434020996094,
+      "reward": -144.21434020996094
+    },
+    "square": {
+      "period": 5.0,
+      "cost": 52.99119567871094,
+      "reward": -52.99119567871094
+    }
+  },
+  "control_laws": {
+    "figure8": "u_tx = ((-0.489 * smooth(pos_err_y, s=1.285)) + (1.062 * vel_y)) - (0.731 * ang_vel_x)",
+    "circle": "u_tx = ((-2.104 * smooth(pos_err_y, s=0.296)) + (1.111 * vel_y)) - (0.727 * ang_vel_x)",
+    "square": "u_tx = ((-0.972 * smooth(pos_err_y, s=1.988)) + (1.591 * vel_y)) - (0.660 * ang_vel_x)"
+  },
+  "dt": 0.020833333333333332,
+  "columns": [
+    "time",
+    "traj",
+    "ref_x",
+    "ref_y",
+    "ref_z",
+    "actual_x",
+    "actual_y",
+    "actual_z",
+    "pos_err_x",
+    "pos_err_y",
+    "pos_err_z",
+    "u_tx",
+    "u_ty",
+    "u_tz",
+    "u_fz",
+    "step_reward",
+    "cumulative_reward"
+  ]
+}

@@ -1,0 +1,4 @@
+method,config_tag,runtime_sec,mean_reward,tracking_rmse,crash_rate,control_energy,notes
+PID,baseline_hover,,,,,,
+PPO,ppo_circle_eval,,,,,,
+Program,pi_flight_best,,,,,,

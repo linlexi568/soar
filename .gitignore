@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Results and Logs
+results/
+log/
+logs/
+*.log
+
+# Checkpoints and Models (large files)
+*.pth
+*.pt
+*.ckpt
+*.h5
+checkpoints/
+
+# Data files (usually large)
+*.npz
+*.npy
+data/
+datasets/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Specific to your project
+01_pi_flight/results/
+02_baseline/results/
+03_CMA-ES/results/
+04_nn_baselines/data/
+04_nn_baselines/results/
+
+# Nested git repositories (external dependencies)
+gym-pybullet-drones/
+
+# Keep important result files (uncomment if needed)
+# !results/best_program.json
+# !01_pi_flight/results/best_program.json
+
+# Large dependencies
+isaacgym/
+safe_control_gym_repo/
+mock_agile_dataset/
