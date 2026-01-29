@@ -1,1 +1,1 @@
-这是soar(CCC2026版本)的仓库
+This is github repository of soar(CCC2026) 
