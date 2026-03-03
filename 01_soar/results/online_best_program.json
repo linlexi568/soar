@@ -1,0 +1,136 @@
+{
+  "rules": [
+    {
+      "action": [
+        {
+          "type": "Binary",
+          "op": "set",
+          "left": {
+            "type": "Terminal",
+            "value": "u_tx"
+          },
+          "right": {
+            "type": "Binary",
+            "op": "+",
+            "left": {
+              "type": "Binary",
+              "op": "*",
+              "left": {
+                "type": "Constant",
+                "value": 0.9005656479927253,
+                "name": "c_794f40",
+                "min_val": -5.0,
+                "max_val": 5.0
+              },
+              "right": {
+                "type": "Unary",
+                "op": "deadzone",
+                "child": {
+                  "type": "Unary",
+                  "op": "clamp",
+                  "child": {
+                    "type": "Terminal",
+                    "value": "pos_err_y"
+                  },
+                  "params": {
+                    "lo": {
+                      "type": "Constant",
+                      "value": -2.0,
+                      "name": "clamp_lo",
+                      "min_val": -6.0,
+                      "max_val": 6.0
+                    },
+                    "hi": {
+                      "type": "Constant",
+                      "value": 2.0,
+                      "name": "clamp_hi",
+                      "min_val": -6.0,
+                      "max_val": 6.0
+                    }
+                  }
+                },
+                "params": {
+                  "eps": {
+                    "type": "Constant",
+                    "value": 0.05,
+                    "name": "deadzone_eps",
+                    "min_val": 0.0,
+                    "max_val": 1.0
+                  }
+                }
+              }
+            },
+            "right": {
+              "type": "Binary",
+              "op": "*",
+              "left": {
+                "type": "Unary",
+                "op": "deadzone",
+                "child": {
+                  "type": "Unary",
+                  "op": "clamp",
+                  "child": {
+                    "type": "Terminal",
+                    "value": "ang_vel_x"
+                  },
+                  "params": {
+                    "lo": {
+                      "type": "Constant",
+                      "value": -2.0,
+                      "name": "clamp_lo",
+                      "min_val": -6.0,
+                      "max_val": 6.0
+                    },
+                    "hi": {
+                      "type": "Constant",
+                      "value": 2.0,
+                      "name": "clamp_hi",
+                      "min_val": -6.0,
+                      "max_val": 6.0
+                    }
+                  }
+                },
+                "params": {
+                  "eps": {
+                    "type": "Constant",
+                    "value": 0.05,
+                    "name": "deadzone_eps",
+                    "min_val": 0.0,
+                    "max_val": 1.0
+                  }
+                }
+              },
+              "right": {
+                "type": "Constant",
+                "value": 1.1503411761512776,
+                "name": "c_abbca3",
+                "min_val": -5.0,
+                "max_val": 5.0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "iteration": 1,
+    "total_iterations": 2,
+    "reward": -4323261.6875,
+    "reward_train": -4323261.6875,
+    "best_reward": -4323261.6875,
+    "trajectory": "circle",
+    "duration": 5,
+    "reward_profile": "safe_control_tracking",
+    "mcts_simulations": 100,
+    "isaac_num_envs": 512,
+    "reward_components": {
+      "state_cost": 4323261.25,
+      "action_cost": 0.5620210766792297
+    },
+    "num_rules": 0,
+    "num_variables": 0,
+    "depth": 0,
+    "saved_at": "2025-12-10 23:02:53"
+  }
+}

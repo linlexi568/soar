@@ -1,0 +1,59 @@
+{"iter": 1, "reward": -26.872447967529297, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 3, "reward": -13.05078125, "rule_count": 2, "used_variables": ["ang_vel_y", "ang_vel_z", "pos_err_x", "pos_err_y", "vel_err", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 45, "reward": -10.96489429473877, "rule_count": 5, "used_variables": ["ang_vel_x", "ang_vel_y", "pos_err_x", "pos_err_y", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -26.872447967529297, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 3, "reward": -13.05078125, "rule_count": 2, "used_variables": ["ang_vel_y", "ang_vel_z", "pos_err_x", "pos_err_y", "vel_err", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -26.872447967529297, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 3, "reward": -13.05078125, "rule_count": 2, "used_variables": ["ang_vel_y", "ang_vel_z", "pos_err_x", "pos_err_y", "vel_err", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -26.872447967529297, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 3, "reward": -13.05078125, "rule_count": 2, "used_variables": ["ang_vel_y", "ang_vel_z", "pos_err_x", "pos_err_y", "vel_err", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -26.872447967529297, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 3, "reward": -13.05078125, "rule_count": 2, "used_variables": ["ang_vel_y", "ang_vel_z", "pos_err_x", "pos_err_y", "vel_err", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 14, "reward": -10.37231159210205, "rule_count": 2, "used_variables": ["ang_vel_y", "pos_err_x", "pos_err_y", "vel_x"], "reward_components": null}
+{"iter": 26, "reward": -10.010168075561523, "rule_count": 2, "used_variables": ["ang_vel_z", "err_p_pitch", "err_p_roll", "pos_err_x", "pos_err_y", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -26.165674209594727, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 11, "reward": -14.49321174621582, "rule_count": 3, "used_variables": ["ang_vel_y", "pos_err_x", "pos_err_y", "vel_err", "vel_x"], "reward_components": null}
+{"iter": 14, "reward": -11.372748374938965, "rule_count": 2, "used_variables": ["ang_vel_y", "pos_err_x", "pos_err_y", "vel_x"], "reward_components": null}
+{"iter": 26, "reward": -11.010605812072754, "rule_count": 2, "used_variables": ["ang_vel_z", "err_p_pitch", "err_p_roll", "pos_err_x", "pos_err_y", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -26.165674209594727, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 11, "reward": -14.49321174621582, "rule_count": 3, "used_variables": ["ang_vel_y", "pos_err_x", "pos_err_y", "vel_err", "vel_x"], "reward_components": null}
+{"iter": 14, "reward": -11.372748374938965, "rule_count": 2, "used_variables": ["ang_vel_y", "pos_err_x", "pos_err_y", "vel_x"], "reward_components": null}
+{"iter": 26, "reward": -11.010605812072754, "rule_count": 2, "used_variables": ["ang_vel_z", "err_p_pitch", "err_p_roll", "pos_err_x", "pos_err_y", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 66, "reward": -10.996607780456543, "rule_count": 2, "used_variables": ["err_p_pitch", "pos_err_x", "pos_err_y", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -383.78460693359375, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 11, "reward": -194.07078552246094, "rule_count": 3, "used_variables": ["ang_vel_y", "pos_err_x", "pos_err_y", "vel_err", "vel_x"], "reward_components": null}
+{"iter": 14, "reward": -152.63275146484375, "rule_count": 2, "used_variables": ["ang_vel_y", "pos_err_x", "pos_err_y", "vel_x"], "reward_components": null}
+{"iter": 1, "reward": -11798.634765625, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -95.014404296875, "rule_count": 2, "used_variables": ["err_d_z", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 76, "reward": -84.71562194824219, "rule_count": 3, "used_variables": ["err_d_z", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 326, "reward": -84.64279174804688, "rule_count": 4, "used_variables": ["err_d_z", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -1000000.0, "rule_count": 2, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 2, "reward": -618018.5, "rule_count": 1, "used_variables": ["pos_err_z", "vel_err", "vel_z"], "reward_components": null}
+{"iter": 17, "reward": -96.53294372558594, "rule_count": 1, "used_variables": ["pos_err_x", "pos_err_y", "pos_err_z", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -1000000.0, "rule_count": 2, "used_variables": ["hover_thrust", "vel_err"], "reward_components": null}
+{"iter": 2, "reward": -738516.9375, "rule_count": 1, "used_variables": ["hover_thrust", "vel_err"], "reward_components": null}
+{"iter": 12, "reward": -734602.5, "rule_count": 1, "used_variables": ["ang_vel_y", "err_i_y", "err_p_roll", "hover_thrust", "pos_err_x", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 13, "reward": -734590.5625, "rule_count": 1, "used_variables": ["ang_vel_y", "err_i_y", "err_p_roll", "hover_thrust", "pos_err_x", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 1, "reward": -1000000.0, "rule_count": 2, "used_variables": ["ang_vel_x", "ang_vel_y", "err_d_roll", "err_i_x", "err_i_y", "err_p_pitch", "err_p_roll", "hover_thrust", "pos_err_x", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 2, "reward": -736859.125, "rule_count": 1, "used_variables": ["ang_vel_x", "err_d_roll", "err_i_x", "err_p_pitch", "err_p_roll", "hover_thrust", "pos_err_x", "vel_x"], "reward_components": null}
+{"iter": 17, "reward": -730566.5625, "rule_count": 1, "used_variables": ["ang_vel_y", "err_d_roll", "err_i_y", "err_p_pitch", "hover_thrust", "pos_err_x", "vel_x", "vel_y"], "reward_components": null}
+{"iter": 18, "reward": -730248.4375, "rule_count": 1, "used_variables": ["ang_vel_x", "err_d_pitch", "err_d_roll", "err_i_y", "err_p_roll", "hover_thrust", "vel_x"], "reward_components": null}
+{"iter": 2, "reward": -730212.0, "rule_count": 1, "used_variables": ["STATE_ERR_D"], "reward_components": null}
+{"iter": 1, "reward": -7729.51025390625, "rule_count": 1, "used_variables": ["err_p_roll"], "reward_components": null}
+{"iter": 1, "reward": -500.7213134765625, "rule_count": 1, "used_variables": ["err_d_roll"], "reward_components": null}
+{"iter": 1, "reward": -260.30194091796875, "rule_count": 1, "used_variables": ["err_d_roll"], "reward_components": null}
+{"iter": 1, "reward": -500.7213134765625, "rule_count": 1, "used_variables": ["ang_vel_z", "err_d_pitch", "err_d_roll", "err_i_z", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -260.30194091796875, "rule_count": 1, "used_variables": ["ang_vel_z", "err_i_pitch", "err_i_roll", "err_i_z", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -500.7213134765625, "rule_count": 1, "used_variables": ["ang_vel_z", "err_d_pitch", "err_d_roll", "err_i_z", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -500.7213134765625, "rule_count": 1, "used_variables": ["ang_vel_z", "err_d_pitch", "err_d_roll", "err_i_z", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -260.30194091796875, "rule_count": 1, "used_variables": ["ang_vel_z", "err_i_z", "err_p_pitch", "err_p_roll", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -7729.51025390625, "rule_count": 1, "used_variables": ["ang_vel_x", "ang_vel_y", "ang_vel_z", "err_i_z", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -7729.51025390625, "rule_count": 1, "used_variables": ["ang_vel_z", "err_i_pitch", "err_i_roll", "err_i_z", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -730210.3125, "rule_count": 1, "used_variables": ["ang_vel_z", "err_d_pitch", "err_d_roll", "err_i_z", "err_p_pitch", "err_p_roll", "err_p_yaw", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -736859.125, "rule_count": 1, "used_variables": ["ang_vel_z", "err_i_z", "err_p_yaw", "pos_err_x", "pos_err_y", "pos_err_z", "vel_z"], "reward_components": null}
+{"iter": 1, "reward": -736859.125, "rule_count": 1, "used_variables": ["pos_err_y"], "reward_components": null}
+{"iter": 1, "reward": -736857.0, "rule_count": 1, "used_variables": ["pos_err_y"], "reward_components": null}
+{"iter": 9, "reward": -730210.3125, "rule_count": 1, "used_variables": ["err_p_roll"], "reward_components": null}
+{"iter": 1, "reward": -4323261.6875, "rule_count": 1, "used_variables": ["ang_vel_x", "pos_err_y"], "reward_components": null}
+{"iter": 1, "reward": -90.5053939819336, "rule_count": 1, "used_variables": ["err_d_roll", "err_p_roll"], "reward_components": null}
+{"iter": 1, "reward": -128.01724243164062, "rule_count": 1, "used_variables": ["err_d_roll", "err_i_roll"], "reward_components": null}
