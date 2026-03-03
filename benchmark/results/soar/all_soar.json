@@ -1,0 +1,62 @@
+{
+  "figure8": {
+    "trajectory": "figure8",
+    "duration": 5.0,
+    "episodes": 3,
+    "num_envs": 1,
+    "mean_true_reward": -80.24665069580078,
+    "std_true_reward": 0.0,
+    "mean_cost": 80.24665069580078,
+    "std_cost": 0.0,
+    "rmse_pos": 0.5591797828674316,
+    "std_rmse_pos": 0.0,
+    "final_params": {
+      "k_p": 0.489,
+      "k_d": 1.062,
+      "k_w": 0.731,
+      "k_s": 1.285,
+      "nonlinear": "smooth",
+      "reference_cost": 81.78
+    }
+  },
+  "square": {
+    "trajectory": "square",
+    "duration": 5.0,
+    "episodes": 3,
+    "num_envs": 1,
+    "mean_true_reward": -43.342716217041016,
+    "std_true_reward": 0.0,
+    "mean_cost": 43.342716217041016,
+    "std_cost": 0.0,
+    "rmse_pos": 0.3759525716304779,
+    "std_rmse_pos": 0.0,
+    "final_params": {
+      "k_p": 1.6434643124552815,
+      "k_d": 1.632741597362691,
+      "k_w": 0.6294447587302711,
+      "k_s": 0.7861879055222127,
+      "nonlinear": "smooth",
+      "reference_cost": 44.38
+    }
+  },
+  "circle": {
+    "trajectory": "circle",
+    "duration": 5.0,
+    "episodes": 3,
+    "num_envs": 1,
+    "mean_true_reward": -141.33477783203125,
+    "std_true_reward": 0.0,
+    "mean_cost": 141.33477783203125,
+    "std_cost": 0.0,
+    "rmse_pos": 0.708433985710144,
+    "std_rmse_pos": 0.0,
+    "final_params": {
+      "k_p": 2.104,
+      "k_d": 1.111,
+      "k_w": 0.727,
+      "k_s": 0.296,
+      "nonlinear": "smooth",
+      "reference_cost": 144.21
+    }
+  }
+}

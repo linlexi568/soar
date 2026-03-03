@@ -1,0 +1,20 @@
+{
+  "trajectory": "square",
+  "duration": 5.0,
+  "episodes": 3,
+  "num_envs": 1,
+  "mean_true_reward": -43.342716217041016,
+  "std_true_reward": 0.0,
+  "mean_cost": 43.342716217041016,
+  "std_cost": 0.0,
+  "rmse_pos": 0.3759525716304779,
+  "std_rmse_pos": 0.0,
+  "final_params": {
+    "k_p": 1.6434643124552815,
+    "k_d": 1.632741597362691,
+    "k_w": 0.6294447587302711,
+    "k_s": 0.7861879055222127,
+    "nonlinear": "smooth",
+    "reference_cost": 44.38
+  }
+}

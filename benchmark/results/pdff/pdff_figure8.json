@@ -1,0 +1,24 @@
+{
+  "task": "figure8",
+  "duration_sec": 5.0,
+  "controller": "pdff",
+  "seed": 2,
+  "trials": 10,
+  "episodes_per_eval": 1,
+  "best_params": {
+    "k_pos": 9.761824726649461,
+    "k_vel": 5.288015043960104,
+    "k_pos_z": 12.56854990921666,
+    "k_vel_z": 5.843159855750056,
+    "k_att": 15.344767776642637,
+    "k_omega": 1.500017558457455,
+    "k_yaw": 5.402272230206122,
+    "k_yaw_rate": 0.3099363832053316,
+    "att_scale": 0.25604297148649385
+  },
+  "metrics": {
+    "mean_true_reward": -94.5370324254036,
+    "std_true_reward": 11.700179813318973,
+    "rmse_pos": 0.4595227970567066
+  }
+}

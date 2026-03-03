@@ -1,0 +1,20 @@
+{
+  "trajectory": "circle",
+  "duration": 5.0,
+  "episodes": 3,
+  "num_envs": 1,
+  "mean_true_reward": -141.33477783203125,
+  "std_true_reward": 0.0,
+  "mean_cost": 141.33477783203125,
+  "std_cost": 0.0,
+  "rmse_pos": 0.708433985710144,
+  "std_rmse_pos": 0.0,
+  "final_params": {
+    "k_p": 2.104,
+    "k_d": 1.111,
+    "k_w": 0.727,
+    "k_s": 0.296,
+    "nonlinear": "smooth",
+    "reference_cost": 144.21
+  }
+}
