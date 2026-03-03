@@ -60,3 +60,15 @@ gym-pybullet-drones/
 isaacgym/
 safe_control_gym_repo/
 mock_agile_dataset/
+
+# Exclude SAC and TD3
+03_SAC/
+04_TD3/
+
+# Exclude binary/data/doc formats
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.md
+*.json
