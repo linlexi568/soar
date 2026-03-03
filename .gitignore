@@ -61,14 +61,14 @@ isaacgym/
 safe_control_gym_repo/
 mock_agile_dataset/
 
-# Exclude docs/paper/results folders
-docs/
-paper/
-results/
-
 # Exclude SAC and TD3
 03_SAC/
 04_TD3/
+
+# Exclude docs, paper, results folders
+docs/
+paper/
+results/
 
 # Exclude binary/data/doc formats
 *.png
